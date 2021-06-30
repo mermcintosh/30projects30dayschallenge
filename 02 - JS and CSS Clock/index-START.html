@@ -71,9 +71,15 @@
     }
 
   </style>
-
   <script>
-    
+    function setDate(){
+      const now = new Date();
+      const seconds = now.getSeconds()
+    }
+
+    setInterval(setDate, 1000);
+    //the 1000 milliseconds above is equal to 1 second
+
 
   </script>
 </body>
